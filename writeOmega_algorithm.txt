@@ -1,0 +1,22 @@
+binLength(n): 
+
+if n := 0 then: 
+    return 0
+else: 
+    return 1 + binLength(floor(n/2))
+
+writeW0(n):
+
+if n:= 0 then: 
+    write(1)
+    return ''
+
+d = binLength(n) - 1
+
+writeW0(d)
+writeBeta(n)
+
+writeOmega(n): 
+
+writeW0(n)
+write(0)
