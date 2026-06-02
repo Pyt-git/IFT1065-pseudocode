@@ -1,0 +1,11 @@
+
+writeAlpha(n):
+
+if n := 0 then: 
+    write(0)          
+else:
+    write(1)          
+    writeAlpha(n-1)   
+
+if n := 1 then: 
+    write(0)
