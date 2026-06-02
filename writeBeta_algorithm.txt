@@ -1,0 +1,11 @@
+writeBeta(n): 
+
+if n =: 0 then: 
+    return ''
+
+writeBeta(floor(n/2))
+
+if n (mod 2) := 0 then:
+    write(0)
+else: 
+    write(1)
